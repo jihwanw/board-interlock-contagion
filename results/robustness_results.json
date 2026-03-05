@@ -1,0 +1,200 @@
+{
+  "test1_strict_fraud": {
+    "1yr": {
+      "n_exposed": 17728,
+      "n_clean": 292112,
+      "rate_exposed": 0.0141,
+      "rate_clean": 0.0104,
+      "diff": 0.0037,
+      "chi2": 21.557,
+      "p": 3e-06
+    },
+    "2yr": {
+      "n_exposed": 17728,
+      "n_clean": 292112,
+      "rate_exposed": 0.0151,
+      "rate_clean": 0.0113,
+      "diff": 0.0038,
+      "chi2": 20.607,
+      "p": 6e-06
+    },
+    "3yr": {
+      "n_exposed": 17728,
+      "n_clean": 292112,
+      "rate_exposed": 0.0159,
+      "rate_clean": 0.0118,
+      "diff": 0.0041,
+      "chi2": 22.956,
+      "p": 2e-06
+    }
+  },
+  "test2_contagion_windows": {
+    "edge_only": {
+      "rate_exposed": 0.1818,
+      "rate_clean": 0.121,
+      "diff": 0.0607,
+      "chi2": 2198.379,
+      "p": 0.0
+    },
+    "1yr": {
+      "rate_exposed": 0.2102,
+      "rate_clean": 0.14,
+      "diff": 0.0703,
+      "chi2": 2619.855,
+      "p": 0.0
+    },
+    "2yr": {
+      "rate_exposed": 0.2216,
+      "rate_clean": 0.1485,
+      "diff": 0.0731,
+      "chi2": 2716.86,
+      "p": 0.0
+    },
+    "3yr": {
+      "rate_exposed": 0.2297,
+      "rate_clean": 0.1547,
+      "diff": 0.075,
+      "chi2": 2776.913,
+      "p": 0.0
+    }
+  },
+  "test3_enhanced_matching": {
+    "n_pairs": 19499,
+    "treated_rate": 0.0894,
+    "control_rate": 0.0823,
+    "ATT": 0.0072,
+    "mcnemar_chi2": 6.533,
+    "p": 0.010587
+  },
+  "test4_auditor_controlled_regression": {
+    "n_obs": 47890,
+    "n_firms": 4945,
+    "r2_within": 0.0399,
+    "coefficients": {
+      "(intercept)": {
+        "coef": 0.0,
+        "se": 0.001224,
+        "t": 0.0,
+        "p": 1.0
+      },
+      "n_exposed_edges": {
+        "coef": 0.002863,
+        "se": 0.000747,
+        "t": 3.833,
+        "p": 0.000127
+      },
+      "degree": {
+        "coef": 0.000304,
+        "se": 0.000304,
+        "t": 0.999,
+        "p": 0.318021
+      },
+      "betweenness": {
+        "coef": 2.56063,
+        "se": 1.401582,
+        "t": 1.827,
+        "p": 0.067713
+      },
+      "size": {
+        "coef": 0.017626,
+        "se": 0.00235,
+        "t": 7.501,
+        "p": 0.0
+      },
+      "leverage": {
+        "coef": -0.000804,
+        "se": 0.000273,
+        "t": -2.944,
+        "p": 0.003242
+      },
+      "roa": {
+        "coef": -0.000887,
+        "se": 0.000524,
+        "t": -1.693,
+        "p": 0.090528
+      },
+      "has_big4": {
+        "coef": -0.429596,
+        "se": 0.044251,
+        "t": -9.708,
+        "p": 0.0
+      },
+      "had_prior_restate": {
+        "coef": -0.162123,
+        "se": 0.005581,
+        "t": -29.049,
+        "p": 0.0
+      }
+    }
+  },
+  "test5_economic_magnitude": {
+    "avg_exposed_firms_per_year": 1121,
+    "ATT": 0.0072,
+    "additional_restates_per_year": 8.1,
+    "estimated_cost_M_per_year": 807,
+    "assumption": "Conservative $100M avg restatement cost (GAO 2006)"
+  },
+  "test6_industry_year_fe": {
+    "n_obs": 47890,
+    "n_firms": 4945,
+    "r2_within": 0.0377,
+    "coefficients": {
+      "(intercept)": {
+        "coef": 0.0,
+        "se": 0.001225,
+        "t": 0.0,
+        "p": 1.0
+      },
+      "n_exposed_edges": {
+        "coef": 0.00249,
+        "se": 0.00075,
+        "t": 3.319,
+        "p": 0.000905
+      },
+      "degree": {
+        "coef": -0.000138,
+        "se": 0.00033,
+        "t": -0.419,
+        "p": 0.675085
+      },
+      "betweenness": {
+        "coef": 2.376364,
+        "se": 1.414634,
+        "t": 1.68,
+        "p": 0.092995
+      },
+      "size": {
+        "coef": -0.003995,
+        "se": 0.001337,
+        "t": -2.988,
+        "p": 0.002807
+      },
+      "leverage": {
+        "coef": -0.000931,
+        "se": 0.000275,
+        "t": -3.386,
+        "p": 0.000711
+      },
+      "roa": {
+        "coef": -0.00042,
+        "se": 0.000511,
+        "t": -0.822,
+        "p": 0.410983
+      },
+      "has_big4": {
+        "coef": 0.063406,
+        "se": 0.009524,
+        "t": 6.657,
+        "p": 0.0
+      },
+      "had_prior_restate": {
+        "coef": -0.157101,
+        "se": 0.005597,
+        "t": -28.067,
+        "p": 0.0
+      }
+    },
+    "baseline_restatement_rate": 0.0875,
+    "relative_increase_pct": 8.2
+  }
+}

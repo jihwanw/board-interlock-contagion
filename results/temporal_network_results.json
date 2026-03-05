@@ -1,0 +1,177 @@
+{
+  "total_edge_lifecycles": 154920,
+  "total_contagion_pairs": 309840,
+  "exposed_pairs": 162738,
+  "clean_pairs": 147102,
+  "contagion_rate_exposed": 0.2102,
+  "contagion_rate_clean": 0.14,
+  "rate_difference": 0.0703,
+  "chi2": 2619.855,
+  "p_chi2": 0.0,
+  "z_stat": 51.189,
+  "p_z": 0.0,
+  "edge_survival": {
+    "mean_duration_restate_origin": 5.88,
+    "mean_duration_clean_origin": 6.83,
+    "t_stat": -31.622,
+    "p_value": 0.0
+  },
+  "cohort_analysis": {
+    "2001": {
+      "n_edges": 40,
+      "contagion_rate": 1.0,
+      "baseline_rate": 0.3333,
+      "diff": 0.6667
+    },
+    "2002": {
+      "n_edges": 32,
+      "contagion_rate": 0.0,
+      "baseline_rate": 0.2333,
+      "diff": -0.2333
+    },
+    "2003": {
+      "n_edges": 32,
+      "contagion_rate": 0.2857,
+      "baseline_rate": 0.56,
+      "diff": -0.2743
+    },
+    "2004": {
+      "n_edges": 3694,
+      "contagion_rate": 0.1554,
+      "baseline_rate": 0.1657,
+      "diff": -0.0103
+    },
+    "2005": {
+      "n_edges": 2610,
+      "contagion_rate": 0.5198,
+      "baseline_rate": 0.375,
+      "diff": 0.1448
+    },
+    "2006": {
+      "n_edges": 19026,
+      "contagion_rate": 0.2246,
+      "baseline_rate": 0.1659,
+      "diff": 0.0587
+    },
+    "2007": {
+      "n_edges": 15814,
+      "contagion_rate": 0.2442,
+      "baseline_rate": 0.162,
+      "diff": 0.0821
+    },
+    "2008": {
+      "n_edges": 11966,
+      "contagion_rate": 0.198,
+      "baseline_rate": 0.118,
+      "diff": 0.08
+    },
+    "2009": {
+      "n_edges": 18920,
+      "contagion_rate": 0.1359,
+      "baseline_rate": 0.084,
+      "diff": 0.0519
+    },
+    "2010": {
+      "n_edges": 14556,
+      "contagion_rate": 0.2842,
+      "baseline_rate": 0.1176,
+      "diff": 0.1666
+    },
+    "2011": {
+      "n_edges": 13680,
+      "contagion_rate": 0.3113,
+      "baseline_rate": 0.1988,
+      "diff": 0.1124
+    },
+    "2012": {
+      "n_edges": 18898,
+      "contagion_rate": 0.3302,
+      "baseline_rate": 0.1962,
+      "diff": 0.134
+    },
+    "2013": {
+      "n_edges": 16334,
+      "contagion_rate": 0.3197,
+      "baseline_rate": 0.2158,
+      "diff": 0.1039
+    },
+    "2014": {
+      "n_edges": 17240,
+      "contagion_rate": 0.2553,
+      "baseline_rate": 0.125,
+      "diff": 0.1303
+    },
+    "2015": {
+      "n_edges": 14428,
+      "contagion_rate": 0.255,
+      "baseline_rate": 0.1807,
+      "diff": 0.0743
+    },
+    "2016": {
+      "n_edges": 16178,
+      "contagion_rate": 0.2064,
+      "baseline_rate": 0.1281,
+      "diff": 0.0783
+    },
+    "2017": {
+      "n_edges": 12638,
+      "contagion_rate": 0.2081,
+      "baseline_rate": 0.1789,
+      "diff": 0.0291
+    },
+    "2018": {
+      "n_edges": 14814,
+      "contagion_rate": 0.197,
+      "baseline_rate": 0.1402,
+      "diff": 0.0568
+    },
+    "2019": {
+      "n_edges": 14622,
+      "contagion_rate": 0.1564,
+      "baseline_rate": 0.1216,
+      "diff": 0.0348
+    },
+    "2020": {
+      "n_edges": 15244,
+      "contagion_rate": 0.166,
+      "baseline_rate": 0.1446,
+      "diff": 0.0214
+    },
+    "2021": {
+      "n_edges": 17604,
+      "contagion_rate": 0.1975,
+      "baseline_rate": 0.1757,
+      "diff": 0.0218
+    },
+    "2022": {
+      "n_edges": 15200,
+      "contagion_rate": 0.117,
+      "baseline_rate": 0.1042,
+      "diff": 0.0128
+    },
+    "2023": {
+      "n_edges": 15348,
+      "contagion_rate": 0.1099,
+      "baseline_rate": 0.0827,
+      "diff": 0.0272
+    },
+    "2024": {
+      "n_edges": 20838,
+      "contagion_rate": 0.0832,
+      "baseline_rate": 0.0331,
+      "diff": 0.0501
+    },
+    "2025": {
+      "n_edges": 66,
+      "contagion_rate": 0.1818,
+      "baseline_rate": 0.0,
+      "diff": 0.1818
+    },
+    "2026": {
+      "n_edges": 4,
+      "contagion_rate": 0.0,
+      "baseline_rate": 0.0,
+      "diff": 0.0
+    }
+  }
+}

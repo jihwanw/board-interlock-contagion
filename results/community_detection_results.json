@@ -1,0 +1,124 @@
+{
+  "2008": {
+    "n_communities": 547,
+    "modularity": 0.8777,
+    "top5_sizes": [
+      279,
+      248,
+      215,
+      199,
+      178
+    ],
+    "within_edges": 14601,
+    "cross_edges": 1201,
+    "cross_ratio": 0.076,
+    "restate_rate_std": 0.1804,
+    "restate_rate_range": [
+      0.0,
+      0.8571
+    ],
+    "contagion_within_rate": 0.1863,
+    "contagion_cross_rate": 0.3071,
+    "contagion_within_n": 5121,
+    "contagion_cross_n": 534
+  },
+  "2012": {
+    "n_communities": 443,
+    "modularity": 0.7436,
+    "top5_sizes": [
+      295,
+      280,
+      279,
+      278,
+      262
+    ],
+    "within_edges": 23089,
+    "cross_edges": 6837,
+    "cross_ratio": 0.2285,
+    "restate_rate_std": 0.1538,
+    "restate_rate_range": [
+      0.0385,
+      0.7857
+    ],
+    "contagion_within_rate": 0.3121,
+    "contagion_cross_rate": 0.3673,
+    "contagion_within_n": 7344,
+    "contagion_cross_n": 3806
+  },
+  "2016": {
+    "n_communities": 460,
+    "modularity": 0.6871,
+    "top5_sizes": [
+      634,
+      481,
+      457,
+      369,
+      340
+    ],
+    "within_edges": 29704,
+    "cross_edges": 11938,
+    "cross_ratio": 0.2867,
+    "restate_rate_std": 0.1526,
+    "restate_rate_range": [
+      0.0385,
+      0.7385
+    ],
+    "contagion_within_rate": 0.1783,
+    "contagion_cross_rate": 0.2592,
+    "contagion_within_n": 6400,
+    "contagion_cross_n": 3310
+  },
+  "2020": {
+    "n_communities": 482,
+    "modularity": 0.6592,
+    "top5_sizes": [
+      861,
+      663,
+      465,
+      454,
+      385
+    ],
+    "within_edges": 35663,
+    "cross_edges": 16366,
+    "cross_ratio": 0.3146,
+    "restate_rate_std": 0.1395,
+    "restate_rate_range": [
+      0.0833,
+      0.6973
+    ],
+    "contagion_within_rate": 0.146,
+    "contagion_cross_rate": 0.1937,
+    "contagion_within_n": 5262,
+    "contagion_cross_n": 3722
+  },
+  "2023": {
+    "n_communities": 461,
+    "modularity": 0.6478,
+    "top5_sizes": [
+      1033,
+      495,
+      490,
+      476,
+      460
+    ],
+    "within_edges": 40583,
+    "cross_edges": 19783,
+    "cross_ratio": 0.3277,
+    "restate_rate_std": 0.1397,
+    "restate_rate_range": [
+      0.0,
+      0.6909
+    ],
+    "contagion_within_rate": 0.1048,
+    "contagion_cross_rate": 0.1165,
+    "contagion_within_n": 4846,
+    "contagion_cross_n": 4336
+  },
+  "aggregate": {
+    "within_rate": 0.1955,
+    "cross_rate": 0.2321,
+    "diff": 0.0366,
+    "chi2": 82.462,
+    "p": 0.0
+  }
+}

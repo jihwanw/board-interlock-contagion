@@ -1,0 +1,194 @@
+{
+  "total_director_induced_births": 112011,
+  "from_restate_origin": 66897,
+  "from_clean_origin": 45114,
+  "contagion_rate_exposed": 0.23,
+  "contagion_rate_clean": 0.1942,
+  "rate_difference": 0.0358,
+  "chi2": 203.813,
+  "p_chi2": 0.0,
+  "z_stat": 14.284,
+  "p_z": 0.0,
+  "yearly": {
+    "2005": {
+      "new_edges": 2444,
+      "director_induced_births": 3478,
+      "from_restate_origin": 914,
+      "dest_future_restate": 1097,
+      "from_restate_AND_dest_restate": 323,
+      "from_clean_AND_dest_restate": 774,
+      "contagion_rate": 0.3533916849015317,
+      "baseline_rate": 0.30187207488299533
+    },
+    "2006": {
+      "new_edges": 4186,
+      "director_induced_births": 7258,
+      "from_restate_origin": 1608,
+      "dest_future_restate": 1427,
+      "from_restate_AND_dest_restate": 576,
+      "from_clean_AND_dest_restate": 851,
+      "contagion_rate": 0.3582089552238806,
+      "baseline_rate": 0.15061946902654869
+    },
+    "2007": {
+      "new_edges": 4905,
+      "director_induced_births": 4826,
+      "from_restate_origin": 1954,
+      "dest_future_restate": 1121,
+      "from_restate_AND_dest_restate": 468,
+      "from_clean_AND_dest_restate": 653,
+      "contagion_rate": 0.23950870010235414,
+      "baseline_rate": 0.22736768802228413
+    },
+    "2008": {
+      "new_edges": 4828,
+      "director_induced_births": 4844,
+      "from_restate_origin": 2747,
+      "dest_future_restate": 992,
+      "from_restate_AND_dest_restate": 606,
+      "from_clean_AND_dest_restate": 386,
+      "contagion_rate": 0.22060429559519476,
+      "baseline_rate": 0.18407248450166905
+    },
+    "2009": {
+      "new_edges": 4661,
+      "director_induced_births": 4608,
+      "from_restate_origin": 2723,
+      "dest_future_restate": 1125,
+      "from_restate_AND_dest_restate": 733,
+      "from_clean_AND_dest_restate": 392,
+      "contagion_rate": 0.26918839515240545,
+      "baseline_rate": 0.2079575596816976
+    },
+    "2010": {
+      "new_edges": 6019,
+      "director_induced_births": 7495,
+      "from_restate_origin": 3682,
+      "dest_future_restate": 1602,
+      "from_restate_AND_dest_restate": 1029,
+      "from_clean_AND_dest_restate": 573,
+      "contagion_rate": 0.279467680608365,
+      "baseline_rate": 0.15027537372147914
+    },
+    "2011": {
+      "new_edges": 6038,
+      "director_induced_births": 6412,
+      "from_restate_origin": 4316,
+      "dest_future_restate": 1812,
+      "from_restate_AND_dest_restate": 1249,
+      "from_clean_AND_dest_restate": 563,
+      "contagion_rate": 0.2893883225208526,
+      "baseline_rate": 0.26860687022900764
+    },
+    "2012": {
+      "new_edges": 6224,
+      "director_induced_births": 6439,
+      "from_restate_origin": 4330,
+      "dest_future_restate": 1802,
+      "from_restate_AND_dest_restate": 1284,
+      "from_clean_AND_dest_restate": 518,
+      "contagion_rate": 0.29653579676674363,
+      "baseline_rate": 0.24561403508771928
+    },
+    "2013": {
+      "new_edges": 6062,
+      "director_induced_births": 6303,
+      "from_restate_origin": 4038,
+      "dest_future_restate": 1617,
+      "from_restate_AND_dest_restate": 1131,
+      "from_clean_AND_dest_restate": 486,
+      "contagion_rate": 0.2800891530460624,
+      "baseline_rate": 0.21456953642384105
+    },
+    "2014": {
+      "new_edges": 6151,
+      "director_induced_births": 6633,
+      "from_restate_origin": 4241,
+      "dest_future_restate": 1475,
+      "from_restate_AND_dest_restate": 1038,
+      "from_clean_AND_dest_restate": 437,
+      "contagion_rate": 0.24475359585003537,
+      "baseline_rate": 0.18269230769230768
+    },
+    "2015": {
+      "new_edges": 5704,
+      "director_induced_births": 6114,
+      "from_restate_origin": 4179,
+      "dest_future_restate": 1613,
+      "from_restate_AND_dest_restate": 1131,
+      "from_clean_AND_dest_restate": 482,
+      "contagion_rate": 0.2706389088298636,
+      "baseline_rate": 0.24909560723514212
+    },
+    "2016": {
+      "new_edges": 5946,
+      "director_induced_births": 6614,
+      "from_restate_origin": 4904,
+      "dest_future_restate": 1285,
+      "from_restate_AND_dest_restate": 948,
+      "from_clean_AND_dest_restate": 337,
+      "contagion_rate": 0.1933115823817292,
+      "baseline_rate": 0.19707602339181288
+    },
+    "2017": {
+      "new_edges": 5668,
+      "director_induced_births": 5762,
+      "from_restate_origin": 4007,
+      "dest_future_restate": 1112,
+      "from_restate_AND_dest_restate": 755,
+      "from_clean_AND_dest_restate": 357,
+      "contagion_rate": 0.18842026453706015,
+      "baseline_rate": 0.20341880341880342
+    },
+    "2018": {
+      "new_edges": 6433,
+      "director_induced_births": 6802,
+      "from_restate_origin": 4530,
+      "dest_future_restate": 1301,
+      "from_restate_AND_dest_restate": 933,
+      "from_clean_AND_dest_restate": 368,
+      "contagion_rate": 0.20596026490066224,
+      "baseline_rate": 0.1619718309859155
+    },
+    "2019": {
+      "new_edges": 6555,
+      "director_induced_births": 6555,
+      "from_restate_origin": 4519,
+      "dest_future_restate": 1054,
+      "from_restate_AND_dest_restate": 725,
+      "from_clean_AND_dest_restate": 329,
+      "contagion_rate": 0.16043372427528213,
+      "baseline_rate": 0.16159135559921414
+    },
+    "2020": {
+      "new_edges": 7163,
+      "director_induced_births": 6783,
+      "from_restate_origin": 4522,
+      "dest_future_restate": 1435,
+      "from_restate_AND_dest_restate": 947,
+      "from_clean_AND_dest_restate": 488,
+      "contagion_rate": 0.20942061034940293,
+      "baseline_rate": 0.21583370190181336
+    },
+    "2021": {
+      "new_edges": 8294,
+      "director_induced_births": 8239,
+      "from_restate_origin": 5069,
+      "dest_future_restate": 1272,
+      "from_restate_AND_dest_restate": 814,
+      "from_clean_AND_dest_restate": 458,
+      "contagion_rate": 0.16058394160583941,
+      "baseline_rate": 0.1444794952681388
+    },
+    "2022": {
+      "new_edges": 6948,
+      "director_induced_births": 6846,
+      "from_restate_origin": 4614,
+      "dest_future_restate": 1004,
+      "from_restate_AND_dest_restate": 695,
+      "from_clean_AND_dest_restate": 309,
+      "contagion_rate": 0.1506285218899003,
+      "baseline_rate": 0.13844086021505375
+    }
+  }
+}

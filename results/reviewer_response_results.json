@@ -1,0 +1,100 @@
+{
+  "director_role_heterogeneity": {
+    "Board Member": {
+      "n": 282410,
+      "n_exposed": 153469,
+      "rate_exposed": 0.2132,
+      "rate_clean": 0.1487,
+      "diff": 0.0645,
+      "chi2": 1943.1,
+      "p": 0.0
+    },
+    "CFO/Financial": {
+      "n": 158482,
+      "n_exposed": 84213,
+      "rate_exposed": 0.1958,
+      "rate_clean": 0.1457,
+      "diff": 0.0501,
+      "chi2": 692.8,
+      "p": 0.0
+    },
+    "CEO": {
+      "n": 138232,
+      "n_exposed": 79099,
+      "rate_exposed": 0.2081,
+      "rate_clean": 0.168,
+      "diff": 0.0401,
+      "chi2": 351.8,
+      "p": 0.0
+    },
+    "Non-Executive": {
+      "n": 104126,
+      "n_exposed": 51830,
+      "rate_exposed": 0.2321,
+      "rate_clean": 0.1337,
+      "diff": 0.0985,
+      "chi2": 1690.2,
+      "p": 0.0
+    }
+  },
+  "same_auditor": {
+    "Same Auditor": {
+      "n": 97684,
+      "rate_exposed": 0.1718,
+      "rate_clean": 0.0742,
+      "diff": 0.0976,
+      "chi2": 2222.2,
+      "p": 0.0
+    },
+    "Different Auditor": {
+      "n": 212156,
+      "rate_exposed": 0.2231,
+      "rate_clean": 0.1816,
+      "diff": 0.0415,
+      "chi2": 546.3,
+      "p": 0.0
+    }
+  },
+  "restatement_type": {
+    "Fraud": {
+      "rate_exposed": 0.0054,
+      "rate_clean": 0.0027,
+      "diff": 0.0027,
+      "chi2": 140.6,
+      "p": 0.0
+    },
+    "SEC Investigation": {
+      "rate_exposed": 0.009,
+      "rate_clean": 0.006,
+      "diff": 0.003,
+      "chi2": 93.0,
+      "p": 0.0
+    },
+    "Adverse Opinion": {
+      "rate_exposed": 0.178,
+      "rate_clean": 0.1175,
+      "diff": 0.0605,
+      "chi2": 2229.3,
+      "p": 0.0
+    },
+    "Accounting Error": {
+      "rate_exposed": 0.2065,
+      "rate_clean": 0.1376,
+      "diff": 0.0689,
+      "chi2": 2554.8,
+      "p": 0.0
+    }
+  },
+  "logit_robustness": {
+    "coef": 0.0474,
+    "z": 6.561,
+    "p": 0.0,
+    "marginal_effect": 0.00364
+  },
+  "economic_updated": {
+    "median_mktcap_M": 553,
+    "avg_loss_M": 50.9,
+    "additional_per_year": 8.1,
+    "annual_cost_M": 411
+  }
+}
